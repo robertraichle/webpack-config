@@ -1,7 +1,6 @@
-const component = () => {
+const test = () => {
     const element = document.createElement('h2');
     element.innerHTML = "Webpack Tutorial";
     return element;
 }
-
-console.log(component);
+console.log(test);
