@@ -3,7 +3,8 @@
   "scripts": {
     "start": "cross-env SERVE=true webpack serve",
     "watch": "webpack --watch",
-    "build": "cross-env NODE_ENV=production webpack"
+    "build": "cross-env NODE_ENV=production webpack",
+    "build-dev": "webpack"
   },
   "devDependencies": {
     "@babel/core": "^7.14.0",
@@ -12,6 +13,11 @@
     "cross-env": "^7.0.3",
     "css-loader": "^5.2.4",
     "mini-css-extract-plugin": "^1.6.0",
+    "postcss": "^8.2.13",
+    "postcss-loader": "^5.2.0",
+    "postcss-preset-env": "^6.7.0",
+    "sass": "^1.32.12",
+    "sass-loader": "^11.0.1",
     "webpack": "^5.36.2",
     "webpack-cli": "^4.6.0",
     "webpack-dev-server": "^3.11.2"

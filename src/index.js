@@ -1,3 +1,5 @@
+import "./assets/css/style.scss";
+
 const firstComponent = {
     tag: 1,
     monat: 5,
