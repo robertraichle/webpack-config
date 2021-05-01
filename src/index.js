@@ -1,6 +1,12 @@
-const test = () => {
-    const element = document.createElement('h2');
-    element.innerHTML = "Webpack Tutorial";
-    return element;
+const firstComponent = {
+    tag: 1,
+    monat: 5,
+};
+
+const secondComponent = {
+    ...firstComponent,
+    jahr: 2021,
 }
-console.log(test);
+
+console.log(firstComponent);
+console.log(secondComponent);
